@@ -19,7 +19,7 @@ ROUTES = {
 def home():
     return (
         "<h1>Encutador de Link do Dinastia </h1>"
-        "<p>Use /avatar, /sportv2, /mouseboat... <br>"
+        "<p>chame o @guielihan no telegram para obter mais informações de como acessar a mídia ao vivo que deseja <br>"
     )
 
 
