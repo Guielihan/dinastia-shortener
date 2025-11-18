@@ -13,7 +13,8 @@ ROUTES = {
     "premiere": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/ef32b84bc6f5fa1592ab2ac6b136574c/premiere.m3u8",
     "hbo": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/626d8059f664cdac988f8d72418dfd2f/hbo.m3u8",
     "record": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/d70dae28f1d1cb2b0d295d120a6234fc/record.m3u8",
-    "cinemax": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/e7a8e2a2ca667c51e9e81ff6c4c66ca6/cinemax.m3u8"
+    "cinemax": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/e7a8e2a2ca667c51e9e81ff6c4c66ca6/cinemax.m3u8",
+    "sportv": "https://d1muf25xa11so8hp19.s27-usa-cloudfront-net.online/token/833a12e178d9ac67c2ca32fb00858388/sportv.m3u8"
     # "mouseboat": "https://SEU-LINK-GIGANTE-DO-MOUSEBOAT.m3u8",
 }
 
