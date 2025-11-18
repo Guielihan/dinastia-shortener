@@ -18,9 +18,8 @@ ROUTES = {
 @app.route("/")
 def home():
     return (
-        "<h1>Encurta Dinastia </h1>"
+        "<h1>Encutador de Link do Dinastia </h1>"
         "<p>Use /avatar, /sportv2, /mouseboat... <br>"
-        "Edite o dicionário ROUTES no código para cadastrar novos atalhos.</p>"
     )
 
 
