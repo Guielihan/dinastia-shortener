@@ -8,6 +8,8 @@ app = Flask(__name__)
 ROUTES = {
     # exemplos — depois você troca pelos seus links reais
     "band": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/1db75a7d7fb3eeaaf22a079198f420d2/bandsports.m3u8",
+    "bandsports": "https://d1muf25xa11so8hp19.s27-usa-cloudfront-net.online/token/0a94c62ae45689449a6e274478a85e4d/bandsports.m3u8",
+    "globo": "https://d1muf25xa11so8hp19.s27-usa-cloudfront-net.online/token/2039005d79208152fa61a23f926c5290/globosp.m3u8",
     "premiere": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/ef32b84bc6f5fa1592ab2ac6b136574c/premiere.m3u8",
     "hbo": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/626d8059f664cdac988f8d72418dfd2f/hbo.m3u8",
     "record": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/d70dae28f1d1cb2b0d295d120a6234fc/record.m3u8",
