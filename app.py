@@ -11,6 +11,7 @@ ROUTES = {
     "bandsports": "https://d1muf25xa11so8hp19.s27-usa-cloudfront-net.online/token/0a94c62ae45689449a6e274478a85e4d/bandsports.m3u8",
     "globo": "https://d1muf25xa11so8hp19.s27-usa-cloudfront-net.online/token/2039005d79208152fa61a23f926c5290/globosp.m3u8",
     "premiere": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/ef32b84bc6f5fa1592ab2ac6b136574c/premiere.m3u8",
+    "premiere3": "https://d1muf25xa11so8hp20.s27-usa-cloudfront-net.online/token/f8ef9319ee5b36168555028facc91536/premiere3.m3u8",
     "combate": "https://d1muf25xa11so8hp19.s27-usa-cloudfront-net.online/token/56452b10692f5df290d2ec644901ea05/combate.m3u8",
     "hbo": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/626d8059f664cdac988f8d72418dfd2f/hbo.m3u8",
     "record": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/d70dae28f1d1cb2b0d295d120a6234fc/record.m3u8",
