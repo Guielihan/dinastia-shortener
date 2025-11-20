@@ -3,21 +3,29 @@ import os
 
 app = Flask(__name__)
 
-# dicionario de atalhos
-# aqui você cadastra os slugs curtinhos e os links gigantes
 ROUTES = {
-    # exemplos — depois você troca pelos seus links reais
     "band": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/1db75a7d7fb3eeaaf22a079198f420d2/bandsports.m3u8",
     "bandsports": "https://d1muf25xa11so8hp19.s27-usa-cloudfront-net.online/token/0a94c62ae45689449a6e274478a85e4d/bandsports.m3u8",
     "globo": "https://d1muf25xa11so8hp19.s27-usa-cloudfront-net.online/token/2039005d79208152fa61a23f926c5290/globosp.m3u8",
-    "premiere": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/ef32b84bc6f5fa1592ab2ac6b136574c/premiere.m3u8",
+    "premiere": "https://d1muf25xa11so8hp20.s27-usa-cloudfront-net.online/token/6f0cdb9c2b61c9b2777070879acc2b69/premiere.m3u8",
+    "premiere2": "https://d1muf25xa11so8hp20.s27-usa-cloudfront-net.online/token/ab92701c28b8c68fcb453f98a503932e/premiere2.m3u8",
     "premiere3": "https://d1muf25xa11so8hp20.s27-usa-cloudfront-net.online/token/f8ef9319ee5b36168555028facc91536/premiere3.m3u8",
+    "premiere4": "link_grande",
+    "premiere5": "link_grande",
+    "premiere6": "link_grande",
+    "espn": "link_grande",
+    "espn2": "link_grande",
+    "espn3": "link_grande",
+    "espn4": "link_grande",
+    "espn5": "link_grande",
+    "espn6": "link_grande",
+    "espn7": "link_grande",
+    "espn8": "link_grande",
     "combate": "https://d1muf25xa11so8hp19.s27-usa-cloudfront-net.online/token/56452b10692f5df290d2ec644901ea05/combate.m3u8",
     "hbo": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/626d8059f664cdac988f8d72418dfd2f/hbo.m3u8",
     "record": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/d70dae28f1d1cb2b0d295d120a6234fc/record.m3u8",
     "cinemax": "https://d1muf25xa11so8hp18.s27-usa-cloudfront-net.online/token/e7a8e2a2ca667c51e9e81ff6c4c66ca6/cinemax.m3u8",
     "sportv": "https://d1muf25xa11so8hp19.s27-usa-cloudfront-net.online/token/833a12e178d9ac67c2ca32fb00858388/sportv.m3u8"
-    # "mouseboat": "https://SEU-LINK-GIGANTE-DO-MOUSEBOAT.m3u8",
 }
 
 
